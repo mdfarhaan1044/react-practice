@@ -32,7 +32,7 @@ function Counter() {
     // Return statement
     return (
         <>
-            <h1>Counter App</h1>
+            <h1 className='text-red-700'>Counter App</h1>
             <h2>Count: {count}</h2>
             {/* Buttons to add and reset count */}
             <button onClick={addCount}>Add +1</button>
