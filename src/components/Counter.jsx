@@ -25,19 +25,19 @@ function Counter() {
             alert("Cant go below 0");
             return;
         }
-           // Update the state
+        // Update the state
         setCount(count - 1);
     }
 
     // Return statement
     return (
-        <>
-            <h1 className='text-red-700'>Counter App</h1>
-            <h2>Count: {count}</h2>
+        <div className='mb-5'>
+            <h1 className='text-2xl font-bold'>Counter App</h1>
+            <h2 className='text-xl font-semibold'>Count: {count}</h2>
             {/* Buttons to add and reset count */}
-            <button onClick={addCount}>Add +1</button>
-            <button onClick={removeCount}>Remove -1</button>
-        </>
+            <button className='px-2 py-1 bg-green-500 text-white' onClick={addCount}>Add +1</button>
+            <button className='px-2 py-1 bg-red-500 text-white' onClick={removeCount}>Remove -1</button>
+        </div>
     )
 }
 

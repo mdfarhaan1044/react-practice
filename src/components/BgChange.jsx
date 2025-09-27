@@ -9,7 +9,8 @@ function BgChange() {
     }
 
     return (
-        <div className="flex justify-center gap-2 w-full items-center h-screen" style={{ backgroundColor: bgcolor }}>
+        <div className="flex justify-center gap-2 w-[90vw] items-center h-[20vh] m-3 border border-white mb-5" style={{ backgroundColor: bgcolor }}>
+
             {/* buttons to change the background color */}
             <button className="px-2 py-1 bg-red-500 text-black" onClick={() => changeBg('red')}>Red</button>
             <button className="px-2 py-1 bg-green-500 text-black" onClick={() => changeBg('green')}>Green</button>
