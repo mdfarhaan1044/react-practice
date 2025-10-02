@@ -2,6 +2,7 @@ import './App.css'
 import Counter from './components/Counter'
 import BgChange from './components/BgChange'
 import PasswordGenerator from './components/PasswordGenerator'
+import CurrencyConverter from './components/CurrencyConverter'
 
 // This is the App component. The componenet should be always start with uppercase
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* 1.Counter App <Counter/> */} <Counter />
       {/* 2. Background Change App <BgChange /> */} <BgChange />
       {/* 3. Password Generator App <PasswordGenerator /> */} <PasswordGenerator />
+      {/* 4. Currency Converter App <CurrencyConverter /> */} <CurrencyConverter />
     </div>
 
   )
